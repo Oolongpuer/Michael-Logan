@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael・Logan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="profile.html">Michael・Logan</a>
+        </div>
+        <!-- ここにメニューアイコンを追加してください -->
+        <span class="nav_toggle">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+        <nav class="nav">
+            <ul class="nav_menu_ul">
+                <li class="nav_menu_li"><a href="index.html">Home</a></li>
+                <li class="nav_menu_li"><a href="portfolio.html">Portfolio</a></li>
+                <li class="nav_menu_li"><a href="profile.html">Profile</a></li>
+                <li class="nav_menu_li"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+  
+        <div class="header-right">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="profile.html">Profile</a>
+          
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+    </header>
+    <div class="top-wrapper home">
+      <div class="container">
+        <h1>Architectural</h1>
+        <p>Photography</p>
+        <div class="btn-wrapper">
+          <a href="portfolio.html" class="btn">More</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+       <div class="icon-wrapper">
+        <img src="./images/facebook.svg" class="icon">
+        <img src="./images/twitter.svg" class="icon">
+        <img src="./images/insta.svg" class="icon">
+      </div>  
+        <p><small>&copy; Michael・Logan. All Rights Reserved.</small></p>
+        
+      </div>
+    </footer>
+    <script>
+      $(function(){
+        $('.nav_toggle').on('click', function () {
+            $('.nav_toggle, .nav').toggleClass('show');
+        });
+        })
+    </script>
